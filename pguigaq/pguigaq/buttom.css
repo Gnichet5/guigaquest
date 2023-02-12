@@ -1,0 +1,22 @@
+button {
+    display: block;
+    margin-left: 650px;
+    margin-right: 650px;
+    text-align: center;
+    margin-top: 50px;
+    border-radius: 0px;
+    background-color: aliceblue;
+    font-size: 12pt;
+    width: 320;
+    height: 20;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-style: oblique;
+    box-shadow: 4px 4px 0px #000;
+    background-color: #7c5099;
+    transition: transform 200ms ease-in-out;
+}
+
+button:hover {
+    transform: scale(1.2);
+}
