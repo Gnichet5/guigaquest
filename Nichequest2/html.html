@@ -4,24 +4,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Proj paises</title>
+    <title>NicheQuest</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.2/dist/sweetalert2.all.min.js"></script>
     <link rel="stylesheet" href="css.css">
     <script src="JS.js" defer></script>
 </head>
 
 <body>
-    <h1>NicheQuest</h1>
+    <h1>Fennygame</h1>
     <center><label>Guess the Movie</label></center>
-    <!-- <center><img src="https://scoutlife.org/wp-content/uploads/2011/04/movies-featured.jpg?w=650" alt="Filme"></center> -->
-    <center><img src="https://www.indiewire.com/wp-content/uploads/2017/02/10wrp4zrhzcnjka7dklcxz6ebhd.jpg" alt="Filme"> <p id="final"></p>
+    <center><img src="https://www.indiewire.com/wp-content/uploads/2017/02/10wrp4zrhzcnjka7dklcxz6ebhd.jpg" alt="Filme">
+        <p id="final"></p>
     </center>
     <form action="">
         <input type="text" name="resposta" id="ans" placeholder="Digite o aqui a resposta">
         <input type="submit" id="send" value="Enviar">
     </form>
+    <button id="dica" onclick="showDica()">Dica</button>
     <div id="acertos">
         <p id="titleAcertos">Acertos</p>
         <p id="contagem">0</p>
